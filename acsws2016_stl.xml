@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StyleGroup>
+  <StyleGroup name="Default"></StyleGroup>
+  <StyleGroup name="ClassicBlue"></StyleGroup>
+  <StyleGroup name="ClassicGreen"></StyleGroup>
+  <StyleGroup name="Classic"></StyleGroup>
+  <StyleGroup name="Colorful"></StyleGroup>
+  <StyleGroup name="Commercial"></StyleGroup>
+  <StyleGroup name="Complementary"></StyleGroup>
+  <StyleGroup name="Cool"></StyleGroup>
+  <StyleGroup name="Deep"></StyleGroup>
+  <StyleGroup name="Ordinary"></StyleGroup>
+  <StyleGroup name="Quiet"></StyleGroup>
+  <StyleGroup name="Red"></StyleGroup>
+  <StyleGroup name="Romantic"></StyleGroup>
+  <StyleGroup name="Simple"></StyleGroup>
+  <StyleGroup name="Warm"></StyleGroup>
+</StyleGroup>

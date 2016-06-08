@@ -1,0 +1,20 @@
+<CatalogUI>                      
+  <Database name="ACSWorkshop">                                          
+    <Query height="500" name="qryUtility" spaneHeight="300" type="ACSWorkshop" width="600" x="333" y="124">                  
+      <QueryTable databaseType="ACSWorkshop" height="140" name="UTILITY_DATA" queryType="qryUtility" width="140" x="15" y="15"></QueryTable>            
+    </Query>            
+    <Formula fieldPaneWidth="210" functionPaneWidth="220" height="550" name="frmAlternateRowColor" textPaneHeight="150" type="ACSWorkshop" width="700" x="250" y="124"></Formula>            
+    <Formula fieldPaneWidth="210" functionPaneWidth="220" height="550" name="constEnergyCost" textPaneHeight="150" type="ACSWorkshop" width="700" x="250" y="124"></Formula>            
+    <Formula fieldPaneWidth="210" functionPaneWidth="220" height="550" name="frmActualSavings" textPaneHeight="318" type="ACSWorkshop" width="700" x="418" y="187"></Formula>            
+    <Formula fieldPaneWidth="210" functionPaneWidth="220" height="550" name="frmYear" textPaneHeight="326" type="ACSWorkshop" width="700" x="250" y="124"></Formula>              
+    <Query height="708" name="qryDemandResponse" spaneHeight="435" type="ACSWorkshop" width="957" x="393" y="210">            
+      <QueryTable databaseType="ACSWorkshop" height="140" name="UTILITY_DATA" queryType="qryDemandResponse" width="140" x="15" y="15"></QueryTable>            
+      <QueryTable databaseType="ACSWorkshop" height="140" name="DEMAND_RESPONSE" queryType="qryDemandResponse" width="140" x="376" y="50"></QueryTable>        
+    </Query>        
+    <Formula fieldPaneWidth="210" functionPaneWidth="220" height="550" name="frmACSFooter" textPaneHeight="150" type="ACSWorkshop" width="700" x="250" y="124"></Formula>      
+    <Query height="500" name="qryDemandResponseNoFilter" spaneHeight="300" type="ACSWorkshop" width="600" x="333" y="124">      
+      <QueryTable databaseType="ACSWorkshop" height="140" name="UTILITY_DATA" queryType="qryDemandResponseNoFilter" width="140" x="15" y="15"></QueryTable>      
+      <QueryTable databaseType="ACSWorkshop" height="140" name="DEMAND_RESPONSE" queryType="qryDemandResponseNoFilter" width="140" x="170" y="15"></QueryTable>    
+    </Query>  
+  </Database>
+</CatalogUI>

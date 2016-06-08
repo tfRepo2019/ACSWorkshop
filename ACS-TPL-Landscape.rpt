@@ -1,0 +1,265 @@
+65648
+class ACS-TPL-Landscape extends jet.reportset.JetRptReportSet {
+    set major = 13;
+    set BuildNumber = 13500;
+    set DisplayName = "reportset1";
+    set tplName = "reportset1";
+    set minor = 5;
+    set key = -445002772;
+    set curReportId = "Report";
+    set restrict = -1154569832;
+    declare jet.reportset.JetRptReports Reports = {
+        declare jet.reportset.JetRptReport Report = {
+            set restrict = -495961408;
+            set CatalogName = "C:\Users\temp\Documents\efacecHDA\EfacecACS.cat";
+            set key = 1082922940;
+            set DisplayName = "report1";
+            set ClickPriority = "linkdrill_downgo_to_detail";
+            set Name_ = "Report";
+            declare jet.report.JetRptReportBody ReportBody = {
+                set dataInherit = false;
+                set Width = -60;
+                set DisplayName = "ReportBody";
+                set Height = -60;
+                set Name_ = "ReportBody";
+                declare jet.report.JetRptPageStart PageStart = {
+                    set pageReference = "PagePanel";
+                    set DisplayName = "PageStart";
+                };
+                declare jet.report.paragraph.build.JetRptParagraph Paragraph1 = {
+                    set Bold = true;
+                    set Name_ = "Paragraph1";
+                    set FontSize = 1440;
+                    set DisplayName = "Paragraph1";
+                };
+                declare jet.report.JetRptPageEnd PageEnd = {
+                    set pageReference = "PagePanel";
+                    set DisplayName = "PageEnd";
+                };
+            };
+            declare jet.report.JetRptViews Views = {
+                set DisplayName = "Views";
+                declare jet.report.JetRptView View = {
+                    set DisplayName = "View";
+                };
+            };
+            declare jet.report.mode.JetRptModeContainer ModeContainer = {
+                set DisplayName = "ModeContainer";
+                declare jet.report.mode.JetRptMode Mode = {
+                    set DisplayName = "Mode";
+                    declare jet.report.mode.renderer.JetRptTextRender RenderText = {
+                    };
+                };
+            };
+            declare jet.report.mode.actions.JetRptActionContainer ActionContainer = {
+                set DisplayName = "ActionContainer";
+            };
+            declare jet.report.JetRptBnFilterCtrlContainer BuildInFilterCtrlContainer = {
+                set DisplayName = "BuildInFilterCtrlContainer";
+            };
+            declare jet.report.JetRptTOC TOC = {
+                set DisplayName = "TOC";
+                set Name_ = "TOC";
+            };
+            declare jet.report.conditionalFormatting.JetRptConditionalFormatSet ConditionalFormatSet = {
+                set DisplayName = "ConditionalFormatSet";
+            };
+            declare jet.report.conditionalFormatting.JetRptReportFormulaClassSet ReportFormulaClassSet = {
+                set DisplayName = "ReportFormulaClassSet";
+            };
+            declare jet.report.JetRptPagePanel PagePanel = {
+                set Height = 48983;
+                set Orientation = "Landscape";
+                set PageType = "Custom size";
+                set DisplayName = "PagePanel";
+                set Width = 69120.0;
+                declare jet.report.JetRptPageHeaderPanel PageHeaderPanel = {
+                    set Height = 13212;
+                    set Width = 63360.0;
+                    set Name_ = "PageHeaderPanel";
+                    set DisplayName = "PageHeaderPanel";
+                    declare jet.report.tabular.JetRptTabular Tabular = {
+                        set Width = 60900;
+                        set DisplayName = "Tabular";
+                        set rowNumber = 2;
+                        set Name_ = "Tabular";
+                        set columnNumber = 1;
+                        set Height = 12900;
+                        declare jet.report.tabular.JetRptRowGroupSet TabularRowGroupSet = {
+                            set DisplayName = "TabularRowGroupSet";
+                            declare jet.report.tabular.JetRptRowGroup TabularRowGroup = {
+                                set tabularCellNames = "1";
+                                set DisplayName = "TabularRowGroup";
+                            };
+                            declare jet.report.tabular.JetRptRowGroup TabularRowGroup1 = {
+                                set tabularCellNames = "3";
+                                set DisplayName = "TabularRowGroup1";
+                            };
+                        };
+                        declare jet.report.tabular.JetRptColumnGroupSet TabularColumnGroupSet = {
+                            set DisplayName = "TabularColumnGroupSet";
+                            declare jet.report.tabular.JetRptColumnGroup TabularColumnGroup = {
+                                set tabularCellNames = "13";
+                                set DisplayName = "TabularColumnGroup";
+                            };
+                        };
+                        declare jet.report.tabular.JetRptTabularCell "Tabular@TCell1" = {
+                            set gridWidth = 1;
+                            set Width = 60900;
+                            set DisplayName = "TabularCell";
+                            set border-right-width = 0;
+                            set gridHeight = 1;
+                            set Name_ = "Tabular@TCell1";
+                            set border-top-width = 0;
+                            set border-bottom-width = 0;
+                            set border-left-width = 0;
+                            set cellID = 1;
+                            set Height = 10368;
+                            declare jet.report.paragraph.build.JetRptParagraph Paragraph2 = {
+                                set Name_ = "Paragraph2";
+                                set DisplayName = "Paragraph";
+                                declare jet.report.paragraph.build.JetRptParaReplaceElement ReplaceElement = {
+                                    set Name_ = "ReplaceElement";
+                                    set DisplayName = "ReplaceElement";
+                                    declare jet.report.JetRptPicture Image = {
+                                        set GotoDetail = false;
+                                        set display = "inline";
+                                        set Width = 60900;
+                                        set DisplayName = "Image";
+                                        set ScalingMode = "FitImage";
+                                        set Name_ = "Image";
+                                        set PictureName = "ACSSessionsLogo.png";
+                                        set ExportToCSV = false;
+                                        set Height = 10680;
+                                    };
+                                };
+                            };
+                            declare jet.report.paragraph.build.JetRptParagraph Paragraph4 = {
+                                set Name_ = "Paragraph4";
+                                set DisplayName = "Paragraph3";
+                            };
+                        };
+                        declare jet.report.tabular.JetRptTabularCell "Tabular@TCell3" = {
+                            set startY = 1;
+                            set gridWidth = 1;
+                            set Width = 60900;
+                            set DisplayName = "TabularCell2";
+                            set border-right-width = 0;
+                            set gridHeight = 1;
+                            set Name_ = "Tabular@TCell3";
+                            set border-top-width = 0;
+                            set border-bottom-width = 0;
+                            set border-left-width = 0;
+                            set cellID = 3;
+                            set Background = "0x186fa5";
+                            set Height = 2532;
+                            declare jet.report.paragraph.build.JetRptParagraph Paragraph3 = {
+                                set Name_ = "Paragraph3";
+                                set DisplayName = "Paragraph2";
+                                declare jet.report.paragraph.build.JetRptParaReplaceElement ReplaceElement1 = {
+                                    set Name_ = "ReplaceElement1";
+                                    set DisplayName = "ReplaceElement1";
+                                    declare jet.report.JetRptTextField Label = {
+                                        set display = "inline";
+                                        set Foreground = "0xf3f3f3";
+                                        set padding-right = 173;
+                                        set Width = 42060;
+                                        set QualifyName = "ACS-TPL-Landscape.Reports.Report.PagePanel.PageHeaderPanel.Tabular.Tabular@TCell3.Paragraph3.ReplaceElement1.Label";
+                                        set DisplayName = "Label";
+                                        set padding-top = 58;
+                                        set padding-left = 173;
+                                        set Text = "Report Title (Landscape Report)";
+                                        set Y = 660;
+                                        set refMode = "Mode";
+                                        set X = 480;
+                                        set LinkURLTargetFrame = "default";
+                                        set Height = 1281;
+                                        set HorizontalAlignment = "Left";
+                                        set padding-bottom = 58;
+                                        set GotoDetail = false;
+                                        set FontSize = 1120;
+                                        set Name_ = "Label";
+                                    };
+                                };
+                            };
+                        };
+                        declare jet.report.tabular.JetRptTabularRows TabularRows = {
+                            set DisplayName = "TabularRows";
+                            declare jet.report.tabular.JetRptGridRow TabularGridRow = {
+                                set DisplayName = "TabularGridRow";
+                                set rowHeight = 10368;
+                            };
+                            declare jet.report.tabular.JetRptGridRow TabularGridRow1 = {
+                                set DisplayName = "TabularGridRow1";
+                                set rowHeight = 2532;
+                            };
+                        };
+                        declare jet.report.tabular.JetRptTabularColumns TabularColumns = {
+                            set DisplayName = "TabularColumns";
+                            declare jet.report.tabular.JetRptGridColumn TabularGridColumn = {
+                                set DisplayName = "TabularGridColumn";
+                                set columnWidth = 60900;
+                            };
+                        };
+                    };
+                };
+                declare jet.report.JetRptPageFooterPanel PageFooterPanel = {
+                    set DisplayName = "PageFooterPanel";
+                    set Height = 2400;
+                    set Name_ = "PageFooterPanel";
+                    set Width = 63360.0;
+                    set Background = "0x186fa5";
+                    declare jet.report.JetRptSystemField GlobalPageNofM = {
+                        set padding-top = 58;
+                        set GotoDetail = false;
+                        set LinkURLTargetFrame = "default";
+                        set Foreground = "0xffffff";
+                        set padding-bottom = 58;
+                        set Name_ = "GlobalPageNofM";
+                        set Format = "XXXXXXXXX...";
+                        set Height = 1037;
+                        set Width = 7680;
+                        set Y = 900;
+                        set X = 49560;
+                        set padding-right = 173;
+                        set refMode = "Mode";
+                        set padding-left = 173;
+                        set HorizontalAlignment = "Right";
+                        set DisplayName = "SpecialField";
+                        set FieldType = "GlobalPageNofM";
+                    };
+                    declare jet.report.JetRptTextField Label1 = {
+                        set display = "inline";
+                        set Foreground = "0xf3f3f3";
+                        set padding-right = 173;
+                        set Width = 22800;
+                        set QualifyName = "ACS-TPL-Landscape.Reports.Report.PagePanel.PageFooterPanel.Label1";
+                        set DisplayName = "Label1";
+                        set padding-top = 58;
+                        set padding-left = 173;
+                        set Text = "Use Dataset formula: repACSFooterText";
+                        set Y = 480;
+                        set refMode = "Mode";
+                        set X = 300;
+                        set LinkURLTargetFrame = "default";
+                        set Height = 1281;
+                        set HorizontalAlignment = "Left";
+                        set padding-bottom = 58;
+                        set GotoDetail = false;
+                        set FontSize = 1120;
+                        set Name_ = "Label1";
+                    };
+                };
+            };
+            declare jet.report.conditionallink.JetRptConditionalLinkSet ConditionalLinkSet = {
+                set DisplayName = "ConditionalLinkSet";
+            };
+            declare jet.report.conditionalFormatting.JetRptReportUFormulaSet ReportUFormulaSet = {
+                set DisplayName = "ReportUFormulaSet";
+                set DataSourceName = "ACSWorkshop";
+            };
+        };
+    };
+    declare jet.reportset.JetRptDataSets DataSets = {
+    };
+}
