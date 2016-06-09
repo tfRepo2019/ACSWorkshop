@@ -3,6 +3,15 @@ Workshop Materials
 
 This is the catalog and reports used at the workshop session.
 
+Requirements
+============
+
+-   Designer
+
+-   Server
+
+-   Oracle schema “acs\_ws” for the data
+
 Data
 ====
 
